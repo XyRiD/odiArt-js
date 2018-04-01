@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>OdiArt JS Dev</title>
+</head>
+<script src="odi.js"></script>
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="notcanvas"></div>
+	</div>
+
+	<script>
+		var o = new odi();
+		o.create('canvas');
+		o.text('Canvas Text', 100, 50, '20px arial', 'red', 'blue');
+		o.text('bob', 200, 150, '30px arial', 'black', 'yellow, 5');
+		o.text('YO');
+		var c = new o.component(20, 20, 20, 20);
+		console.log(c.x);
+	</script>
+
+</body>
+</html>
